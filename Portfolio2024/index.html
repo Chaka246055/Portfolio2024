@@ -1,0 +1,188 @@
+
+To correct the issues and reproduce the HTML, CSS, and JavaScript, I'll make the necessary adjustments. Here's the corrected code:
+
+HTML:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Chaka</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Chaka
+            <span>Eddie</span>
+        </a>
+
+        <i class='bx bx-menu-alt-right' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <!-- <a href="#sign-up" class="button" id="signup">Sign Up</a> -->
+        </nav>
+    </header>
+
+ <!-- home sectoion designe -->
+
+
+ <section class="home" id="home">
+  <div class="home-content">
+   <h1>Hello, I am <span>Chaka</span></h1>
+   <h3 class="text-animation">An Aspiring <span></span></h3>
+   <p> <strong>Chaka Eddie Chibweza</strong>  is a proactive B-COMRCE student at Curtin University, Mauritius, specializing in Business Information Technology & Information Systems. <br>  With expertise in data science, networking, and cloud computing, he has showcased his skills through projects and internships at Orange Business Mauritius and New Mauritius Hotel. <br> &nbsp; Chaka is known for his strong interpersonal skills, collaborative nature, and solution-oriented mindset. </p>
+   
+   <div class="social-icons">
+    <a href="http://surl.li/sssqt" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="http://surl.li/ssrgs" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+    <a href="http://surl.li/ssrgh" target="_blank"><i class='bx bxl-github'></i></a>
+    <a href="http://surl.li/sssrb" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+   </div>
+
+   <div class="btn-group">
+    <a href="cv/Chaka Eddie Chibweza.docx" class="btn" download="">Download CV</a>
+    <a href="#contact" class="btn">Contact</a>
+   </div>
+  </div>
+
+  <div class="home-img">
+   <img src="asserts/Image1.png" alt="Profile Image">
+  </div>
+ </section>
+ 
+ <!-- Education Section -->
+ <section class="education" id="education">
+  <h2 class="heading">Education</h2>
+  <div class="timeline-items">
+   <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2017</div>
+    <div class="timeline-content">
+     <h3>High School</h3>
+     <p><strong>Churchill Boys School</strong>: 2017-2018 </p>
+    </div>
+   </div>
+
+   <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2021</div>
+    <div class="timeline-content">
+     <h3>University</h3>
+     <p> <strong>Curtin University, 2021-2024</strong> : <br>
+        Proficient in machine learning, SQL, Python, cloud computing, TensorFlow, Linux, Docker & Kubernetes, and web development.</p>
+    </div>
+   </div>
+
+   <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2023</div>
+    <div class="timeline-content">
+     <h3>Internship</h3>
+     <p>
+        <strong>Orange Business Mauritius Internship:</strong>  Jan - June 2023 <br> <br>
+        Learned network configuration with Cisco, Microsoft, Avaya, and WebEx.
+        Assisted Network Experts in handling various networking cases.</p>
+    </div>
+   </div>
+
+   <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2024</div>
+    <div class="timeline-content">
+     <h3>Graduation</h3>
+     <p> <strong>Curtin University</strong> <br><strong>B-COMRCE in Business Information Technology & Information Systems </strong>: 2024</p>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <!-- Project Section -->
+
+ <section class="projects" id="projects">
+  <h2 class="heading">Projects</h2>
+  <div class="projects-container">
+
+   <a href="guess_my_number/index.html" target="_blank" style="background-image: url('asserts/guess.png');">
+    <div class="project-box">
+     <div class="project-info">
+      <h4>Guess My Secret Number</h4>
+      <p>Guess my secret number in fewest tries.<br> I'll guide with 'higher' or 'lower'. <br> Fun awaits your intuition!!</p>
+     </div>
+    </div>
+   </a>
+   <a href="flatland/flatland.html" target="_blank" style="background-image: url('asserts/Flatland.jpg');">
+    <div class="project-box">
+     <div class="project-info">
+      <h4>Flatland</h4>
+      <p>"Dynamic generator creates surreal landscapes with <br>fractals, contours, and textures, <br>inspiring awe and imagination in flatland realms.</p>
+     </div>
+    </div>
+   </a>
+   <a href="todo_list_MVP/todo.html" target="_blank" style="background-image: url('asserts/todo.jpg');">
+    <div class="project-box">
+     <div class="project-info">
+      <h4>ToDo list</h4>
+      <p>Shot To-Do List: <br> Plan, prioritize, and track tasks efficiently in a concise, user-friendly layout. <br> Boost productivity effortlessly</p>
+     </div>
+    </div>
+   </a>
+   <a href="RPS/rps.html" target="_blank" style="background-image: url('asserts/rps.png');">
+    <div class="project-box">
+     <div class="project-info">
+      <h4>RPS</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae voluptatem, neque deserunt ab nulla molestiae!</p>
+     </div>
+    </div>
+   </a>
+  </div>
+</section>
+
+ <!-- Contact Section -->
+
+ <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form id="contact-form">
+   <div class="input-group">
+       <div class="input-box">
+           <input type="text" id="fullName" placeholder="Full Name">
+           <input type="email" id="email" placeholder="Email">
+       </div>
+       <div class="input-box">
+           <input type="text" id="subject" placeholder="Subject">
+       </div>
+   </div>
+   <div class="input-group-2">
+       <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+       <input type="submit" value="Send Message" class="btn">
+   </div>
+</form>
+
+ </section>
+
+ <!-- Footer Section -->
+
+ <footer class="footer">
+  <div class="social">
+   <a href="http://surl.li/sssqt" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+   <a href="http://surl.li/ssrgs" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+   <a href="http://surl.li/ssrgh" target="_blank"><i class='bx bxl-github'></i></a>
+   <a href="http://surl.li/sssrb" target="_blank"><i class='bx bxl-linkedin-square' ></i></a></a>
+  </div>
+
+  <p class="copyright">
+   &copy; Chaka Chibweza Eddie | All Rights Reserved
+  </p>
+ </footer>
+
+ <script src="app.js"></script>
+</body>
+</html>
